@@ -24,10 +24,23 @@ class _LoginPageState extends State<LoginPage> {
             SizedBox(
               height: 200,
             ),
-            Center(
-              child: Image(
-                image: AssetImage('assets/splash.png'),
-              ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Center(
+                  child: Image(
+                    image: AssetImage('assets/splash.png'),
+                  ),
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Text(
+                  'Dreams Come True',
+                  style: TextStyle(color: Colors.black, fontSize: 13),
+                )
+              ],
             ),
             Spacer(),
             Column(

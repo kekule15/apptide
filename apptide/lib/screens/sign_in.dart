@@ -60,7 +60,7 @@ class _SignInPageState extends State<SignInPage> {
                       radius: 25,
                       child: Icon(
                         Icons.person,
-                        color: Colors.black,
+                        color: Colors.grey,
                         size: 16,
                       ),
                     ),
@@ -69,7 +69,7 @@ class _SignInPageState extends State<SignInPage> {
                       child: TextFormField(
                         decoration: InputDecoration(
                             hintText: 'Username/Email',
-                            hintStyle: TextStyle(color: Colors.black),
+                            hintStyle: TextStyle(color: Colors.grey),
                             border: InputBorder.none),
                       ),
                     )
@@ -109,7 +109,7 @@ class _SignInPageState extends State<SignInPage> {
                               size: 20,
                             ),
                             hintText: 'password',
-                            hintStyle: TextStyle(color: Colors.black),
+                            hintStyle: TextStyle(color: Colors.grey),
                             border: InputBorder.none),
                       ),
                     )
@@ -171,8 +171,9 @@ class _SignInPageState extends State<SignInPage> {
                   radius: 25,
                   backgroundColor: Colors.grey.shade100,
                   child: CircleAvatar(
+                    backgroundColor: Colors.transparent,
                     radius: 20,
-                    backgroundImage: AssetImage('asstes/goggle.PNG'),
+                    backgroundImage: AssetImage('assets/goggle.PNG'),
                   ),
                 ),
                 SizedBox(
@@ -182,8 +183,9 @@ class _SignInPageState extends State<SignInPage> {
                   radius: 25,
                   backgroundColor: Colors.grey.shade100,
                   child: CircleAvatar(
+                    backgroundColor: Colors.transparent,
                     radius: 20,
-                    backgroundImage: AssetImage('asstes/goggle.PNG'),
+                    backgroundImage: AssetImage('assets/facebook.PNG'),
                   ),
                 )
               ],
